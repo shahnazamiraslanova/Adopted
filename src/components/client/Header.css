@@ -1,0 +1,65 @@
+.firstNav {
+  background-color: #bc5148;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 200px;
+}
+.firstNavLeft {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.firstNavLeft svg:hover {
+  color: white;
+}
+.firstNavRight {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.firstNavRight button {
+  background-color: transparent;
+  border: none;
+}
+.firstNavRight button:hover {
+  color: white;
+}
+.secondNav {
+    padding: 20px 200px;
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+
+}
+.secondNavLeft a {
+ text-decoration: none;
+ color: black;
+ font-size: 20px;
+}
+.secondNavRight ul{
+    
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+.secondNavRight{
+    color: #00000080;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.secondNavRight ul a{
+    color: #00000080;
+    text-decoration: none;
+}
+.secondNavRight ul select{
+    background-color: transparent;
+    color: #00000080;
+    border: none;
+}
+.secondNavRight ul a.active{
+    color: red;
+}
+

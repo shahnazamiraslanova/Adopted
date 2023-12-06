@@ -1,0 +1,81 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 814px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .steps{
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .ant-collapse{
+    width: 100%;
+    height: 331px;
+  }
+  .ant-card{
+    width: 40%;
+    border: none;
+  
+  }
+  .ant-card button{
+    border: 2px solid #BC5148;
+    background-color: transparent;
+    color: #BC5148;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+  .ant-collapse-header{
+    background-color: white;
+   
+  }
+  .ant-card button:hover{
+    background-color: #BC5148;
+    color: white;
+  }
+
+  h1{
+    margin: 20px 0;
+  }
+  .accordion{
+    padding: 100px 0;
+  }
+  .waitingChildren{
+background-color: #f8f9fa;
+padding: 20px 200px;
+  }
